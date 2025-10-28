@@ -1,7 +1,7 @@
 # 🌟 Lista de Tarefas 06 — Spring Boot + Vue.js
 
 ## 👨‍💻 Autor
-**Ruan da Silva Pereira**
+
 
 
 
