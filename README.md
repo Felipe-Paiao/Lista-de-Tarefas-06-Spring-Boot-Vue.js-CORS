@@ -1,15 +1,15 @@
-🌟 Lista de Tarefas 06 — Spring Boot + Vue.js + CORS
-👨‍💻 Autor
-Felipe Paião Ferreira
+# 🌟 Lista de Tarefas 06 — Spring Boot + Vue.js + CORS  
 
-🐞 1️⃣ Problema Encontrado
-❌ Os títulos das tarefas não apareciam no frontend.
-⚠️ Causa: Dados de seed não carregavam devido ao bloqueio do CORS no backend.
+👨‍💻 **Autor:** Felipe Paião Ferreira  
 
-🛠️ 2️⃣ Correção Realizada
-🔹 Backend (Spring Boot)
-Configuração de CORS adicionada para liberar acesso do frontend:
+## 🐞 1️⃣ Problema Encontrado  
+❌ Os títulos das tarefas não apareciam no frontend.  
+⚠️ **Causa:** Dados de seed não carregavam devido ao bloqueio do **CORS** no backend.  
 
+## 🧰 2️⃣ Correção Realizada  
+### 🔹 Backend (Spring Boot)  
+Configuração de **CORS** adicionada para liberar acesso do frontend:
+```java
 @Configuration
 public class WebConfig {
     @Bean
@@ -24,6 +24,7 @@ public class WebConfig {
         };
     }
 }
+
 ✅ Agora o frontend consegue acessar os dados do backend sem erros de CORS.
 
 🔹 Frontend (Vue.js)
