@@ -2,7 +2,7 @@
 
 👨‍💻 **Autor:** Felipe Paião Ferreira  
 
-## 🐞 1️⃣ Problema Encontrado  
+## 🔍 1️⃣ Problema Encontrado  
 ❌ Os títulos das tarefas não apareciam no frontend.  
 ⚠️ **Causa:** Dados de seed não carregavam devido ao bloqueio do **CORS** no backend.  
 
