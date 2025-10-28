@@ -24,7 +24,7 @@ public class WebConfig {
         };
     }
 }
-
+````
 ✅ Agora o frontend consegue acessar os dados do backend sem erros de CORS.
 
 🔹 Frontend (Vue.js)
